@@ -68,7 +68,7 @@ jobs:
             tag=ipq40xx-generic-openwrt-24.10.1
             echo "platform=ipq40xx/generic" >> $GITHUB_ENV
           else
-            tag=mediatek-filogic-openwrt-24.10.1
+            tag=mediatek-filogic-openwrt-24.10.2
             echo "platform=mediatek/filogic" >> $GITHUB_ENV
           fi
           
