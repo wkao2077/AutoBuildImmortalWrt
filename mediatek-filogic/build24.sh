@@ -52,11 +52,13 @@ PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10.0
+PACKAGES="$PACKAGES luci-app-package-manager"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
-PACKAGES="$luci-i18n-homeproxy-zh-cn"
+PACKAGES="$PACKAGES luci-app-homeproxy"
+PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
